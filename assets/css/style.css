@@ -1,0 +1,173 @@
+* {
+    text-decoration: none;
+    outline: none !important;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight: 600;
+    color: #1487fa;
+}
+.container {
+    padding-top: 80px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container .login-message {
+    width: 50%;
+    background-color: rgb(20, 114, 229);
+}
+
+.full-login {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.full-login h2,
+span {
+    font-weight: 500;
+    color: hsl(220, 100%, 99%);
+}
+
+.full-login .login-card {
+    height: 70vh;
+
+
+}
+
+p,
+input,
+select,
+textarea,
+button {
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+
+
+
+.right-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-part .segment {
+    padding: 16px;
+    text-align: center;
+
+
+}
+
+.segment h2,
+p {
+    color: rgb(114, 164, 225);
+}
+
+input {
+    width: 366px !important;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 16px*20;
+    padding: 16px;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+
+}
+.buttoon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+label {
+    display: block;
+    margin-bottom: 16px*1.5;
+    width: 100%;
+}
+
+input {
+    margin-right: 16px/2;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+
+
+}
+
+:focus {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+
+.right-part .socials  .facebook {
+    color: white;
+    background-color: #4267b2;
+    font-size: 20px;
+    padding: 8px 25px;
+    border-radius: 4px;
+}
+
+.right-part .socials  .google {
+    color: white;
+    background-color: #db3236;
+    font-size: 20px;
+    padding: 8px 25px;
+    border-radius: 4px;
+}
+
+.right-part h2, p {
+    font-weight: 500;
+    color: #1487fa;
+}
+.right-part .sign  {
+    padding: 16px;
+    text-align: center;
+}
+
+.right-part .sign .or {
+    background-color: white;
+    border-radius: 50%;
+    width: 12%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 10%) !important;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.right-part .sign .or:active {
+	transform: scale(0.95);
+}
+
+.right-part .sign .socials{
+    display: flex;
+    justify-content: space-between;
+}
